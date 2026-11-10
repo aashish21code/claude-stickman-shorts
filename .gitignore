@@ -1,0 +1,40 @@
+# personal, never published
+CLAUDE.local.md
+.claude/settings.local.json
+.env
+.env.*
+
+# the cloned upstream skill (setup.ps1 / README tell you how to clone it)
+upstream/
+
+# reference videos you study -- never commit or redistribute someone else's videos
+refs/
+measurements/
+
+# media and build output
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+**/out/
+**/frames/
+**/takes/
+models/
+
+# scaffold: everything setup.ps1 copies or installs
+scaffold/node_modules/
+scaffold/src/videos/bridge/
+scaffold/src/videos/starter/
+scaffold/scripts/
+scaffold/public/
+scaffold/package-lock.json
+scaffold/npm-install.log
+kenney/
+
+__pycache__/
+*.pyc
+.venv/
